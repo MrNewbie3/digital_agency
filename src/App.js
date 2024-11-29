@@ -8,8 +8,18 @@ import NotFound from "./pages/notFound";
 import ComingSoon from "./pages/coomingSoon";
 import WebFeaturesLayout from "./layouts/webFeatures";
 import GetInTouch from "./pages/getInTouch";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Animation duration in ms
+      easing: "ease-out-cubic", // Smooth easing
+      once: false, // Animation only on first scroll
+
+    });
+  }, []);
   const router = createBrowserRouter([
     {
       path: "/",

@@ -12,7 +12,7 @@ function HomeComps() {
   return (
     <>
       <Nav />
-      <div className="bg-white min-h-screen text-primary-text">
+      <div className="bg-white min-h-screen text-primary-text overflow-x-hidden">
         <Hero />
         <Business />
         <Customers />

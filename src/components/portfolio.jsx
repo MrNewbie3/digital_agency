@@ -8,15 +8,23 @@ import { Autoplay, EffectCoverflow } from "swiper/modules";
 const Portfolio = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-6 pt-12 px-4 sm:px-6 lg:px-8">
-      <h2 className="text-4xl font-bold text-center text-black">
+      <h2
+        className="text-4xl font-bold text-center text-black"
+        data-aos="fade-up" // Tambahkan efek fade-up untuk judul
+      >
         Follow us on <span className="text-blue-main">Instagram</span>
       </h2>
-      <p className=" text-center max-w-[75vw]">
+      <p
+        className=" text-center max-w-[75vw]"
+        data-aos="fade-up" // Tambahkan efek fade-up untuk deskripsi
+        data-aos-delay="200"
+      >
         Ikuti kami di Instagram untuk mendapatkan update terbaru, inspirasi, dan konten eksklusif langsung di feed Anda. Jangan lewatkan kesempatan untuk terhubung dengan kami dan menjadi bagian dari komunitas kami!
       </p>
 
       <div className="w-full mt-8">
         <Swiper
+          data-aos="zoom-in"
           modules={[Autoplay, EffectCoverflow]}
           effect="coverflow"
           grabCursor={true}
@@ -47,8 +55,13 @@ const Portfolio = () => {
         </Swiper>
       </div>
 
-      <a href="https://www.instagram.com/icdigital.id/" target="_blank" rel="noreferrer">
-        <button className="btn btn-lg mt-8 bg-blue-main text-white py-2 px-8 border-none rounded-full">Follow us</button>
+      <a href="https://www.instagram.com/icdigital.id/" target="_blank" rel="noreferrer" data-aos="zoom-out">
+        <button
+          className="btn btn-lg mt-8 bg-blue-main text-white py-2 px-8 border-none rounded-full"
+          // Tambahkan animasi untuk tombol
+        >
+          Follow us
+        </button>
       </a>
     </div>
   );
