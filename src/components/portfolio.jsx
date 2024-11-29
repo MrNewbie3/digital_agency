@@ -47,7 +47,9 @@ const Portfolio = () => {
         </Swiper>
       </div>
 
-      <button className="btn btn-lg mt-8 bg-blue-main text-white py-2 px-8 border-none rounded-full">Follow us</button>
+      <a href="https://www.instagram.com/icdigital.id/" target="_blank" rel="noreferrer">
+        <button className="btn btn-lg mt-8 bg-blue-main text-white py-2 px-8 border-none rounded-full">Follow us</button>
+      </a>
     </div>
   );
 };

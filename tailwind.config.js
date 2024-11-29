@@ -35,6 +35,12 @@ module.exports = {
         "fade-in-down": "fade-in-down 0.5s ease-out",
         "fade-out-up": "fade-out-up 0.5s ease-out",
       },
+      transitionTimingFunction: {
+        custom: "cubic-bezier(0.25, 0.8, 0.25, 1)", // Ease-out kustom untuk transisi profesional
+      },
+      boxShadow: {
+        "blue-300": "0 4px 15px rgba(59, 130, 246, 0.3)", // Shadow dengan warna biru lembut
+      },
     },
   },
   plugins: [require("daisyui")],

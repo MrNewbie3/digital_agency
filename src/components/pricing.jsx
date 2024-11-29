@@ -1,11 +1,11 @@
 import React from "react";
 import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa"; // Import React Icons
 import PricingCard from "./templates/pricing";
+import ContentType from "./contentType";
 
 const Pricing = () => {
   return (
     <div className="py-12">
-      <h2 className="text-md font-bold text-center  uppercase text-black">Pricing</h2>
       <h2 className="text-3xl font-bold text-center capitalize text-blue-main">Affordable pricing plans (Instagram)</h2>
       <p className="text-center text-primary-grey mt-4">
         Kami menawarkan paket harga terjangkau yang dirancang untuk berbagai kebutuhan bisnis, tanpa mengorbankan kualitas. Anda dapat memilih paket yang paling sesuai dengan anggaran dan tujuan Anda dengan harga kompetitif.
@@ -33,6 +33,8 @@ const Pricing = () => {
           active={false} // Another inactive card
         />
       </div>
+
+      <ContentType />
 
       {/* Social Media Icons */}
       <div className="my-12 mt-32 text-center">

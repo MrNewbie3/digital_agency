@@ -8,7 +8,7 @@ const teamMembers = [
     image: "./assets/image.png", // replace with the actual image URL
   },
   {
-    name: "Fadila Rachman",
+    name: "Alief Aulia Rachman",
     position: "Chief Marketing Officer",
     image: "./assets/image-1.png", // replace with the actual image URL
   },

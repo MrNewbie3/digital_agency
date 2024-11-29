@@ -20,7 +20,7 @@ export default function WebFeatures() {
     <section className="md:min-h-[85vh] p-8 text-primary-grey flex flex-col gap-10 ">
       <div className="flex flex-col justify-center items-center gap-4">
         <h2 className="text-2xl lg:text-3xl font-bold text-blue-main">Browse Our Set of Features</h2>
-        <p className="lg:text-lg mt-2 lg:max-w-2xl text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, iure placeat repellat ullam facilis maiores libero fugit sunt rem quasi.</p>
+        <p className="lg:text-lg mt-2 lg:max-w-2xl text-center">We provide landing page, company profile website, portfolio, reservation system, and inventory management for your business needs.</p>
       </div>
 
       {/* Flexbox container with wrapping */}
