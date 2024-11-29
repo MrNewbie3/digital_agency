@@ -71,22 +71,23 @@ const ComingSoon = () => {
         <button className="mt-4 w-full p-3 bg-blue-600 hover:bg-blue-700 rounded-md text-white font-bold transition-colors">Notify Me</button>
       </div>
 
-      <div className="flex space-x-6 mt-8">
-        <a href="#" className="text-xl hover:text-blue-200 transition-colors">
-          <FaFacebookF />
+      <div className="flex flex-row flex-wrap gap-4">
+        <a href="https://www.instagram.com/icdigital.id/" target="_blank" rel="noreferrer" className="text-white mx-2  p-3 rounded-lg ">
+          <FaInstagram size={24} />
         </a>
-        <a href="#" className="text-xl hover:text-blue-200 transition-colors">
-          <FaInstagram />
+        {/* <a href="#" className="text-white mx-2  p-3 rounded-lg">
+          <FaTwitter size={24} />
+        </a> */}
+        <a href="https://www.facebook.com/icdigital.id" target="_blank" rel="noreferrer" className="text-white mx-2  p-3 rounded-lg">
+          <FaFacebookF size={24} />
         </a>
-        <a href="#" className="text-xl hover:text-blue-200 transition-colors">
-          <FaTwitter />
+        {/* <a href="#" className="text-blue-main mx-2 bg-blue-secondary p-3 rounded-lg">
+          <FaLinkedinIn size={24} />
         </a>
-        <a href="#" className="text-xl hover:text-blue-200 transition-colors">
-          <FaLinkedinIn />
-        </a>
+        <a href="#" className="text-blue-main mx-2 bg-blue-secondary p-3 rounded-lg">
+          <FaYoutube size={24} />
+        </a> */}
       </div>
-
-      <Footer />
     </div>
   );
 };

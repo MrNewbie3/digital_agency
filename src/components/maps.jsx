@@ -20,28 +20,28 @@ const Maps = () => {
       <div className="w-full max-w-lg mx-auto flex flex-col items-center justify-center gap-4">
         <h2 className="text-3xl font-bold capitalize text-blue-main ">Subscribe to our newsletter</h2>
         <p className="text-center mb-4 text-primary-grey">Dapatkan update terbaru, tips, dan wawasan eksklusif langsung di email Anda dengan berlangganan newsletter kami.</p>
-        <div className="flex gap-4 w-full justify-center ">
+        <div className="flex gap-4 w-full justify-center flex-col lg:flex-row px-8 md:px-0">
           <input type="email" placeholder="Enter your email" className="px-4 py-2 w-full border-none focus:outline-none bg-gray-100 rounded-full placeholder-blue-main text-blue-main" />
           <button className="btn px-4 py-2 bg-blue-main text-white rounded-full border-none">Subscribe</button>
         </div>
       </div>
 
       <div className="flex flex-row flex-wrap gap-4">
-        <a href="#" className="text-blue-main mx-2 bg-blue-secondary p-3 rounded-lg ">
-          <FaFacebookF size={24} />
-        </a>
-        <a href="#" className="text-blue-main mx-2 bg-blue-secondary p-3 rounded-lg">
-          <FaTwitter size={24} />
-        </a>
-        <a href="#" className="text-blue-main mx-2 bg-blue-secondary p-3 rounded-lg">
+        <a href="https://www.instagram.com/icdigital.id/" target="_blank" rel="noreferrer" className="text-blue-main mx-2 bg-blue-secondary p-3 rounded-lg ">
           <FaInstagram size={24} />
         </a>
-        <a href="#" className="text-blue-main mx-2 bg-blue-secondary p-3 rounded-lg">
+        {/* <a href="#" className="text-blue-main mx-2 bg-blue-secondary p-3 rounded-lg">
+          <FaTwitter size={24} />
+        </a> */}
+        <a href="https://www.facebook.com/icdigital.id" target="_blank" rel="noreferrer" className="text-blue-main mx-2 bg-blue-secondary p-3 rounded-lg">
+          <FaFacebookF size={24} />
+        </a>
+        {/* <a href="#" className="text-blue-main mx-2 bg-blue-secondary p-3 rounded-lg">
           <FaLinkedinIn size={24} />
         </a>
         <a href="#" className="text-blue-main mx-2 bg-blue-secondary p-3 rounded-lg">
           <FaYoutube size={24} />
-        </a>
+        </a> */}
       </div>
     </div>
   );

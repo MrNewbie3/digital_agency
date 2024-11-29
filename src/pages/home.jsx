@@ -1,10 +1,10 @@
 import React from "react";
-import Home from "../layouts/home";
+import HomeComps from "../layouts/home";
 
 export default function Home() {
   return (
     <>
-      <Home />
+      <HomeComps />
     </>
   );
 }
